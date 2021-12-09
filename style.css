@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Poppins;
+}
+.tittle{
+	background-color: #99CCFF;
+	height: 300px;
+}
+.tittle h1, p{
+	text-align: center;	
+	margin: 0;
+  	position: relative;
+  	top: 50%;
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+  	color: white;
+}
+.big-tittle{
+	font-size: 40px;
+	font-weight: 700;
+}
+.small-tittle{
+	font-size: 20px;
+	font-weight: 200;
+}
+table{
+	margin: 40px;
+}
+.web-browser{
+	padding-bottom: 20px;
+	font-weight: 700;
+
+}
+th i{
+	padding: 5px;
+}
+.fab{
+	font-size: 25px;
+	color: skyblue;
+}
+th h3{
+	margin-left: 15px;
+	color: black;
+	font-size: 16px;
+	font-weight: 400;
+}
+th button{
+	margin-left: 30px;
+	width: 30px;
+	height: 30px;
+	transform: rotate(90deg);
+	color: skyblue;
+	border: 1px solid skyblue;
+	background-color: white;
+	transition-duration: 0.4s;
+
+}
+th button:hover{
+	color: green;
+	border: 1px solid green;
+	background-color: white;
+	cursor: pointer;
+}
